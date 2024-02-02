@@ -20,7 +20,7 @@ newGameBtn.addEventListener('click', () => {
     score1El.textContent = 0
     //append hidden class to dice before game starts
     diceEl.classList.add('hidden')
-})
+}) 
 
 //event handler for clicking 'Roll Dice' button
 rollDiceBtn.addEventListener('click', () => {
